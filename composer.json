@@ -6,10 +6,14 @@
         {
             "type": "git",
             "url": "git@github.com:kdambekalns/test-package.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:kdambekalns/test-package-2.git"
         }
     ],
     "require": {
-        "kdambekalns/test-package": "self.version"
+        "kdambekalns/test-package": "^1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
