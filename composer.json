@@ -1,0 +1,16 @@
+{
+    "name": "kdambekalns/test-distribution",
+    "description": "",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:kdambekalns/test-package.git"
+        }
+    ],
+    "require": {
+        "kdambekalns/test-package": "self.version"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
